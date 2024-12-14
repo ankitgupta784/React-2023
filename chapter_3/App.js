@@ -7,11 +7,19 @@ const Title = () => (
   </h1>
 );
 
+//React Element
+const SubTitle = (
+  <h1 id="title" key="h2">
+    Web Series
+  </h1>
+);
+
 // Composing Comopnentss
 const HeaderComponent = () => {
   return (
     <div>
       <Title />
+      {SubTitle}
       <h2>Namaste React functional component</h2>
       <h2>This is a h2 tage</h2>
     </div>
